@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álvaro Rubin - Presentación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Álvaro Rubin</h1>
+    <nav>
+      <ul>
+        <li><a href="#acerca-de">Acerca de Mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="acerca-de">
+    <h2>Acerca de Mí</h2>
+    <!-- El saludo se insertará dinámicamente -->
+    <p>
+      Hola, soy Álvaro Rubin. Soy un profesional apasionado por [tu área de especialización]. 
+      Con experiencia en [tu experiencia o sector], me dedico a crear soluciones innovadoras y de calidad.
+    </p>
+  </section>
+  
+  <section id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+      <li><strong>Empresa 1</strong> – [Tu rol o posición]  
+          <em>Descripción breve de tus responsabilidades y logros.</em>
+      </li>
+      <li><strong>Empresa 2</strong> – [Tu rol o posición]  
+          <em>Descripción breve de tus responsabilidades y logros.</em>
+      </li>
+      <li><strong>Empresa 3</strong> – [Tu rol o posición]  
+          <em>Descripción breve de tus responsabilidades y logros.</em>
+      </li>
+    </ul>
+  </section>
+  
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="project">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1.</p>
+    </div>
+    <div class="project">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2.</p>
+    </div>
+    <div class="project">
+      <h3>Proyecto 3</h3>
+      <p>Descripción del proyecto 3.</p>
+    </div>
+  </section>
+  
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>
+      Puedes contactarme a través de mi 
+      <a href="https://www.linkedin.com/in/alvarorubin/" target="_blank">LinkedIn</a> 
+      o escribirme a: <a href="mailto:tu-email@example.com">tu-email@example.com</a>.
+    </p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Álvaro Rubin. Todos los derechos reservados.</p>
+    <button id="toggleTheme">Cambiar tema</button>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
